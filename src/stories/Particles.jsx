@@ -1,10 +1,16 @@
 import React from 'react';
 import Particles from 'react-particles';
 import PropTypes from 'prop-types';
+import { loadFull } from "tsparticles";
 
 export const ParticlesComponent = ({ backgroundColor, particlesColor }) => {
+    const particlesInit = async (engine) => {
+        await loadFull(engine);
+    };
+
     return (
         <Particles
+            init={particlesInit}
             options={{
                 background: {
                     color: {
