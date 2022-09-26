@@ -1,15 +1,15 @@
 import React from 'react';
-import Particles from 'react-particles';
+import ReactParticles from 'react-particles';
 import PropTypes from 'prop-types';
 import { loadFull } from "tsparticles";
 
-export const ParticlesComponent = ({ backgroundColor, particlesColor }) => {
+export const Particles = ({ backgroundColor, particlesColor, links }) => {
     const particlesInit = async (engine) => {
         await loadFull(engine);
     };
 
     return (
-        <Particles
+        <ReactParticles
             init={particlesInit}
             options={{
                 background: {
@@ -21,6 +21,9 @@ export const ParticlesComponent = ({ backgroundColor, particlesColor }) => {
                     color: {
                         value: particlesColor,
                     },
+                    links: {
+                        enable: links
+                    },
                     move: {
                         enable: true,
                     }
@@ -30,18 +33,14 @@ export const ParticlesComponent = ({ backgroundColor, particlesColor }) => {
     );
 };
 
-ParticlesComponent.propTypes = {
-    /**
-     * What background color to use
-     */
+Particles.propTypes = {
     backgroundColor: PropTypes.string,
-    /**
-     * What background color to use
-     */
-    particlesColor: PropTypes.string,
+    links: PropTypes.bool,
+    particlesColors: PropTypes.arrayOf(PropTypes.string),
 };
 
-ParticlesComponent.defaultProps = {
+Particles.defaultProps = {
     backgroundColor: "#000",
-    particlesColor: "#fff"
+    links: true,
+    particlesColors: [ "#fff" ]
 };

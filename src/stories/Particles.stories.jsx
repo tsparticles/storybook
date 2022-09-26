@@ -1,27 +1,33 @@
 import React from 'react';
 
-import { ParticlesComponent } from './Particles';
+import { Particles } from './Particles';
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-    title: 'Example/Particles',
-    component: ParticlesComponent,
+    title: 'tsParticles/Particles',
+    component: Particles,
     // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
     argTypes: {
         backgroundColor: { control: 'color' },
-        particlesColor: { control: 'color' },
+        links: { control: 'boolean' },
+        particlesColors: { control: 'object' },
     },
 };
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template = (args) => <ParticlesComponent {...args} />;
+const Template = (args) => <Particles {...args} />;
 
 export const Default = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
-Default.args = {};
+Default.args = {
+    backgroundColor: "#000",
+    links: true,
+    particlesColors: ["#fff"]
+};
 
 export const Inverse = Template.bind({});
 Inverse.args = {
     backgroundColor: "#fff",
-    particlesColor: "#000"
+    links: true,
+    particlesColor: ["#000"]
 };
