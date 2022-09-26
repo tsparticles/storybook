@@ -20,9 +20,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
+    "deploy": "yarn build-storybook && gh-pages -d storybook-static",
     "build-storybook": "build-storybook -s public",
     "chromatic": "npx chromatic --exit-zero-on-changes"
   },
+  "homepage": "http://tsparticles.github.io/storybook",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -64,6 +66,7 @@
     "@storybook/testing-library": "^0.0.13",
     "babel-plugin-named-exports-order": "^0.0.2",
     "chromatic": "^6.10.0",
+    "gh-pages": "^4.0.0",
     "prop-types": "^15.8.1",
     "webpack": "^5.74.0"
   },
