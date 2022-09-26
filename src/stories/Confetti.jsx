@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { loadFull } from "tsparticles";
 import { getConfettiPreset } from "../particles-presets";
 
-export const Confetti = ({ backgroundColor, preset }) => {
+export const Confetti = ({ backgroundColor, preset, shapes }) => {
     const particlesInit = async (engine) => {
         await loadFull(engine);
     };
@@ -12,22 +12,18 @@ export const Confetti = ({ backgroundColor, preset }) => {
     return (
         <Particles
             init={particlesInit}
-            options={getConfettiPreset(preset, backgroundColor)}
+            options={getConfettiPreset(preset, backgroundColor, shapes)}
         />
     );
 };
 
 Confetti.propTypes = {
-    /**
-     * What background color to use
-     */
     backgroundColor: PropTypes.string,
-    /**
-     * What background color to use
-     */
     preset: PropTypes.string,
+    shapes: PropTypes.arrayOf(PropTypes.string)
 };
 
 Confetti.defaultProps = {
-    backgroundColor: "#000"
+    backgroundColor: "#000",
+    shapes: ["circle"]
 };

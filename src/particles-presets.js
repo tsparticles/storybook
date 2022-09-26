@@ -1,3 +1,5 @@
+import { deepExtend, tsParticles } from "tsparticles-engine";
+
 export const confettiPresets = {
     bottom: {
         "fullScreen": {
@@ -498,11 +500,25 @@ export const confettiPresets = {
     }
 }
 
-export const getConfettiPreset = (name, bgColor) => {
-    return {
-        ...confettiPresets[name],
+export const getConfettiPreset = (name, bgColor, shapes) => {
+    const options = deepExtend({}, confettiPresets[name]);
+
+    deepExtend(options, {
         background: {
             color: bgColor
+        },
+        particles: {
+            shape: {
+                type: shapes
+            }
         }
-    };
+    });
+
+    console.log(options);
+
+    return options;
+}
+
+export const getAvailableShapes = () => {
+    return Array.from(tsParticles.plugins.drawers.keys());
 }
