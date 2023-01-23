@@ -1,2 +1,0 @@
-# storybook
-tsParticles Storybook
