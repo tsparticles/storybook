@@ -5,9 +5,9 @@ import { loadFull } from "tsparticles";
 
 export const Particles = ({
   backgroundColor,
-  particlesColor,
+  particlesColors,
   links,
-  linkColor,
+  linksColor,
 }) => {
   const particlesInit = async (engine) => {
     await loadFull(engine);
@@ -24,11 +24,11 @@ export const Particles = ({
         },
         particles: {
           color: {
-            value: particlesColor,
+            value: particlesColors,
           },
           links: {
             enable: links,
-            color: linkColor,
+            color: linksColor,
           },
           move: {
             enable: true,
@@ -43,12 +43,12 @@ Particles.propTypes = {
   backgroundColor: PropTypes.string,
   links: PropTypes.bool,
   particlesColors: PropTypes.arrayOf(PropTypes.string),
-  linkColor: PropTypes.string,
+  linksColor: PropTypes.string,
 };
 
 Particles.defaultProps = {
   backgroundColor: "#000",
   links: true,
   particlesColors: ["#fff"],
-  linkColor: "#fff",
+  linksColor: "#fff",
 };

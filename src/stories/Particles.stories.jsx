@@ -11,7 +11,7 @@ export default {
     backgroundColor: { control: "color" },
     links: { control: "boolean" },
     particlesColors: { control: "object" },
-    linkColor: { control: "color" },
+    linksColor: { control: "color" },
   },
 };
 
@@ -24,13 +24,13 @@ Default.args = {
   backgroundColor: "#000",
   links: true,
   particlesColors: ["#fff"],
-  linkColor: "#fff",
+  linksColor: "#fff",
 };
 
 export const Inverse = Template.bind({});
 Inverse.args = {
   backgroundColor: "#fff",
   links: true,
-  particlesColor: ["#000"],
-  linkColor: "#000",
+  particlesColors: ["#000"],
+  linksColor: "#000",
 };
