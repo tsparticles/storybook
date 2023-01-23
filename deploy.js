@@ -11,7 +11,7 @@ const ghToken = process.env.GITHUB_TOKEN, gitUser = ghToken ? {
 ghpages.publish(
     "./storybook-static",
     {
-        repo: ghToken ? `https://git:${ghToken}@github.com/tsparticles/confetti.git` : `https://git:github.com/tsparticles/confetti.git`,
+        repo: ghToken ? `https://git:${ghToken}@github.com/tsparticles/storybook.git` : `https://git:github.com/tsparticles/storybook.git`,
         dotfiles: true,
         history: false,
         message: "build: gh pages updated",
