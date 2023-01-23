@@ -43,10 +43,12 @@ Particles.propTypes = {
   backgroundColor: PropTypes.string,
   links: PropTypes.bool,
   particlesColors: PropTypes.arrayOf(PropTypes.string),
+  linkColor: PropTypes.string,
 };
 
 Particles.defaultProps = {
   backgroundColor: "#000",
   links: true,
   particlesColors: ["#fff"],
+  linkColor: "#fff",
 };
