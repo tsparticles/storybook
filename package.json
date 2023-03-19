@@ -75,7 +75,7 @@
     "prop-types": "^15.8.1",
     "react-refresh": "^0.14.0",
     "require-from-string": "^2.0.2",
-    "typescript": "^4.9.4",
+    "typescript": "^5.0.0",
     "webpack": "^5.75.0"
   },
   "readme": "ERROR: No README data found!",
