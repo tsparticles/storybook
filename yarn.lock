@@ -3398,9 +3398,9 @@
     "@types/estree" "*"
 
 "@types/eslint@*":
-  version "8.21.2"
-  resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-8.21.2.tgz#2b61b43a8b0e66006856a2a4c8e51f6f773ead27"
-  integrity sha512-EMpxUyystd3uZVByZap1DACsMXvb82ypQnGn89e1Y0a+LYu3JJscUd/gqhRsVFDkaD2MIiWo0MT8EfXr3DGRKw==
+  version "8.37.0"
+  resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-8.37.0.tgz#29cebc6c2a3ac7fea7113207bf5a828fdf4d7ef1"
+  integrity sha512-Piet7dG2JBuDIfohBngQ3rCt7MgO9xCO4xIMKxBThCq5PNRB91IjlJ10eJVwfoNtvTErmxLzwBZ7rHZtbOMmFQ==
   dependencies:
     "@types/estree" "*"
     "@types/json-schema" "*"
@@ -3579,9 +3579,9 @@
     form-data "^3.0.0"
 
 "@types/node@*":
-  version "18.15.3"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.3.tgz#f0b991c32cfc6a4e7f3399d6cb4b8cf9a0315014"
-  integrity sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==
+  version "18.15.11"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.11.tgz#b3b790f09cb1696cffcec605de025b088fa4225f"
+  integrity sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==
 
 "@types/node@^13.7.0":
   version "13.13.52"
@@ -3651,7 +3651,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^18.0.27":
-  version "18.0.29"
+  version "18.0.33"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.33.tgz#a1575160cb4376787c2f5fe0312302f824baa61e"
+  integrity sha512-sHxzVxeanvQyQ1lr8NSHaj0kDzcNiGpILEVt69g9S31/7PfMvNCKLKcsHw4lYKjs3cGNJjXSP4mYzX43QlnjNA==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -5494,10 +5496,15 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001426:
   resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001447.tgz#ef1f39ae38d839d7176713735a8e467a0a2523bd"
   integrity sha512-bdKU1BQDPeEXe9A39xJnGtY0uRq/z5osrnXUw0TcK+EYno45Y+U7QU9HhHEyzvMDffpYadFXi3idnSNkcwLkTw==
 
-caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001449:
+caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001400:
   version "1.0.30001468"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001468.tgz#0101837c6a4e38e6331104c33dcfb3bdf367a4b7"
   integrity sha512-zgAo8D5kbOyUcRAgSmgyuvBkjrGk5CGYG5TYgFdpQv+ywcyEpo1LOWoG8YmoflGnh+V+UsNuKYedsoYs0hzV5A==
+
+caniuse-lite@^1.0.30001449:
+  version "1.0.30001474"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001474.tgz#13b6fe301a831fe666cce8ca4ef89352334133d5"
+  integrity sha512-iaIZ8gVrWfemh5DG3T9/YqarVZoYf0r188IjaGwx68j4Pf0SGY6CQkmJUIE+NZHkkecQGohzXmBGEwWDr9aM3Q==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -6803,10 +6810,15 @@ ejs@^3.1.6:
   dependencies:
     jake "^10.8.5"
 
-electron-to-chromium@^1.4.251, electron-to-chromium@^1.4.284:
+electron-to-chromium@^1.4.251:
   version "1.4.333"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.333.tgz#ebb21f860f8a29923717b06ec0cb54e77ed34c04"
   integrity sha512-YyE8+GKyGtPEP1/kpvqsdhD6rA/TP1DUFDN4uiU/YI52NzDxmwHkEb3qjId8hLBa5siJvG0sfC3O66501jMruQ==
+
+electron-to-chromium@^1.4.284:
+  version "1.4.352"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.352.tgz#be96bd7c2f4b980deebc9338a49a67430a33ed73"
+  integrity sha512-ikFUEyu5/q+wJpMOxWxTaEVk2M1qKqTGKKyfJmod1CPZxKfYnxVS41/GCBQg21ItBpZybyN8sNpRqCUGm+Zc4Q==
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -14465,10 +14477,20 @@ terser@^5.0.0:
     commander "^2.20.0"
     source-map-support "~0.5.20"
 
-terser@^5.10.0, terser@^5.14.1, terser@^5.16.5, terser@^5.3.4:
+terser@^5.10.0, terser@^5.14.1, terser@^5.3.4:
   version "5.16.6"
   resolved "https://registry.yarnpkg.com/terser/-/terser-5.16.6.tgz#f6c7a14a378ee0630fbe3ac8d1f41b4681109533"
   integrity sha512-IBZ+ZQIA9sMaXmRZCUMDjNH0D5AQQfdn4WUjHL0+1lF4TP1IHRJbrhb6fNaXWikrYQTSkb7SLxkeXAiy1p7mbg==
+  dependencies:
+    "@jridgewell/source-map" "^0.3.2"
+    acorn "^8.5.0"
+    commander "^2.20.0"
+    source-map-support "~0.5.20"
+
+terser@^5.16.5:
+  version "5.16.8"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.16.8.tgz#ccde583dabe71df3f4ed02b65eb6532e0fae15d5"
+  integrity sha512-QI5g1E/ef7d+PsDifb+a6nnVgC4F22Bg6T0xrBrz6iloVB4PUkkunp6V8nzoOOZJIzjWVdAGqCdlKlhLq/TbIA==
   dependencies:
     "@jridgewell/source-map" "^0.3.2"
     acorn "^8.5.0"
@@ -15703,9 +15725,9 @@ webpack@4:
     webpack-sources "^1.4.1"
 
 "webpack@>=4.43.0 <6.0.0", webpack@^5.64.4, webpack@^5.75.0, webpack@^5.9.0:
-  version "5.76.2"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.76.2.tgz#6f80d1c1d1e3bf704db571b2504a0461fac80230"
-  integrity sha512-Th05ggRm23rVzEOlX8y67NkYCHa9nTNcwHPBhdg+lKG+mtiW7XgggjAeeLnADAe7mLjJ6LUNfgHAuRRh+Z6J7w==
+  version "5.78.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.78.0.tgz#836452a12416af2a7beae906b31644cb2562f9e6"
+  integrity sha512-gT5DP72KInmE/3azEaQrISjTvLYlSM0j1Ezhht/KLVkrqtv10JoP/RXhwmX/frrutOPuSq3o5Vq0ehR/4Vmd1g==
   dependencies:
     "@types/eslint-scope" "^3.7.3"
     "@types/estree" "^0.0.51"
