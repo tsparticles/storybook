@@ -13242,12 +13242,7 @@ tsparticles-basic@^2.12.0:
     tsparticles-updater-out-modes "^2.12.0"
     tsparticles-updater-size "^2.12.0"
 
-tsparticles-engine@^2.10.1:
-  version "2.11.1"
-  resolved "https://registry.yarnpkg.com/tsparticles-engine/-/tsparticles-engine-2.11.1.tgz#538e03c6ea3bef99b114134566b2027c3919bb7a"
-  integrity sha512-tkoCi2SWIVcOkxni6I+ECRz3xfSX2dP/Wn+Kt8Qga/BGWlSrdvLVUn3DbXNJq6h/6efs6n4Db6uFtkceSyRWGg==
-
-tsparticles-engine@^2.12.0:
+tsparticles-engine@^2.10.1, tsparticles-engine@^2.12.0:
   version "2.12.0"
   resolved "https://registry.yarnpkg.com/tsparticles-engine/-/tsparticles-engine-2.12.0.tgz#4a52a8de4ab6085180abf27f4720f47caa1455fc"
   integrity sha512-ZjDIYex6jBJ4iMc9+z0uPe7SgBnmb6l+EJm83MPIsOny9lPpetMsnw/8YJ3xdxn8hV+S3myTpTN1CkOVmFv0QQ==
