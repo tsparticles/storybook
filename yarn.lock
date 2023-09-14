@@ -4120,18 +4120,18 @@
     "@types/react-dom" "^18.0.0"
 
 "@testing-library/user-event@^14.0.0", "@testing-library/user-event@^14.4.3":
-  version "14.4.3"
-  resolved "https://registry.npmjs.org/@testing-library/user-event/-/user-event-14.4.3.tgz#af975e367743fa91989cd666666aec31a8f50591"
-  integrity sha512-kCUc5MEwaEMakkO5x7aoD+DLi02ehmEM2QCGWvNqAS1dV/fAvORWEjnjsEIvml59M7Y5kCkWN6fCCyPOe8OL6Q==
+  version "14.5.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.5.0.tgz#4036add379525b635a64bce4d727820d4ba516a7"
+  integrity sha512-nQRCteEZvULJJrlcGQuNhwGekz25TOUILA+sTWI9PB/vNKKivS+7K7XRTwoikw/2fmJPaM4pPKy+hLWEGg9+JA==
 
 "@tootallnate/once@1":
   version "1.1.2"
-  resolved "https://registry.npmjs.org/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
+  resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
 "@trysound/sax@0.2.0":
   version "0.2.0"
-  resolved "https://registry.npmjs.org/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
+  resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
   integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
 "@types/aria-query@^5.0.1":
