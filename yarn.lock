@@ -7121,13 +7121,6 @@ dedent@^0.7.0:
   resolved "https://registry.yarnpkg.com/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
   integrity sha512-Q6fKUPqnAHAyhiUgFU7BUzLiv0kd8saH9al7tnu5Q/okj6dnupxyTgFIBjVzJATdfIAm9NAsvXNzjaKa+bxVyA==
 
-deep-eql@^4.1.3:
-  version "4.1.3"
-  resolved "https://registry.npmjs.org/deep-eql/-/deep-eql-4.1.3.tgz#7c7775513092f7df98d8df9996dd085eb668cc6d"
-  integrity sha512-WaEtAOpRA1MQ0eohqZjpGD8zdI0Ovsm8mmFhaDN8dvDZzyoUMcYDnf5Y6iu7HTXxf8JDS23qWa4a+hKCDyOPzw==
-  dependencies:
-    type-detect "^4.0.0"
-
 deep-equal@^2.0.5:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-2.2.3.tgz#af89dafb23a396c7da3e862abc0be27cf51d56e1"
@@ -12683,12 +12676,11 @@ react-is@^18.0.0:
   integrity sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==
 
 react-particles@^2.10.1:
-  version "2.10.1"
-  resolved "https://registry.npmjs.org/react-particles/-/react-particles-2.10.1.tgz#5c34fc52809e4704ec6cbaf465a0e203c06a5499"
-  integrity sha512-7juKgk9LqMsSbfAPLbzU3kBfkmspRWrmJKbFxSpZuzXMrNizjEoQPCvGwwS1/I14w55gMz1pqzowDhB8xvmPSQ==
+  version "2.12.2"
+  resolved "https://registry.yarnpkg.com/react-particles/-/react-particles-2.12.2.tgz#0ab12b72428d3b89537d3422fa8bf725175cfd4d"
+  integrity sha512-Bo9DdrBRPFy8uiT7BA8P36Rdmz6GhB/RG9kkWUyZGIsS8AxWyuUjpVxw9Lr23K0LVE2aenAJ0vnqEbbLDpBgQw==
   dependencies:
-    deep-eql "^4.1.3"
-    tsparticles-engine "^2.10.1"
+    tsparticles-engine "^2.12.0"
 
 react-refresh@^0.11.0:
   version "0.11.0"
@@ -14265,7 +14257,7 @@ type-check@^0.4.0, type-check@~0.4.0:
   dependencies:
     prelude-ls "^1.2.1"
 
-type-detect@4.0.8, type-detect@^4.0.0:
+type-detect@4.0.8:
   version "4.0.8"
   resolved "https://registry.npmjs.org/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
   integrity sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==
